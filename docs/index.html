@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Yadokari ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='Yadokariのポートフォリオサイトです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Yadokariのポートフォリオサイトです" />
+  <title>Yadokari ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+
+  <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.png" />
+  <link rel=”canonical” href=”URLが入る” />
+</head>
+
+<body>
+  <div id="wrapper-portfolio">
+    <!-- Header -->
+    <header class="header">
+      <div class="header__inner">
+        <h1 class="header__logo">
+          <a href=".">Yadokari</a>
+        </h1>
+        <!-- Global navigation menu -->
+        <nav class="header__menu">
+          <ul class="header__menu__list">
+            <li class="header__menu__item"><a href="#profile">PROFILE</a></li>
+            <li class="header__menu__item"><a href="#works">WORKS</a></li>
+            <li class="header__menu__item"><a href="#skill">SKILL</a></li>
+            <li class="header__menu__item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Site contents -->
+    <main class="contents__site">
+      <!-- Profile -->
+      <section class="contents__profile section" id="profile">
+        <div class="section__inner">
+          <div class="contents__profile__img">
+            <img src="img/profile.jpeg" alt="" />
+          </div>
+          <div class="contents__profile__explanation">
+            <p class="contents__profile__title">PROFILE</p>
+            <p>
+              東京出身、現在は埼玉県さいたま市在住。<br>
+              フロントエンジニアエンジニア歴3年。<br>
+              過去の開発案件: 業務システム、BtoCサービスなど。<br>
+              スクラム開発のプロジェクトに参画。主にフロントエンドの開発を担当しVue.jsとTypeScriptで実装。<br>
+              直近では、性能試験を担当し、アプリケーションの性能面の検証・解析を行う。<br>
+              趣味はスイーツの食べ歩きとスノーボード！<br>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Works -->
+      <section class="contents__works section" id="works">
+        <div class="section__inner">
+          <h2 class="section__title">WORKS</h2>
+          <div class="contents__works__list">
+            <a class="contents__works__item" href="https://mystyle.ucc.co.jp/" target="_blank" rel="noopener">
+              <p class="contents__works__img"><img src="img/work_01.png" alt="" /></p>
+              <p class="contents__works__name">サブスクリプションサービス</p>
+              <p class="contents__works__info">Coding（Vue.js / Django）</p>
+            </a>
+            <a class="contents__works__item" href="https://www.log-note.jp/ireceipt/" target="_blank" rel="noopener">
+              <p class="contents__works__img"><img src="img/work_02.png" alt="" /></p>
+              <p class="contents__works__name">電子レシートプラットフォーム</p>
+              <p class="contents__works__info">Coding（Vue.js / Node.js / Scala）</p>
+            </a>
+            <div class="contents__works__item">
+              <!-- TODO: image作成 -->
+              <div class="contents__works__img_dummy">
+                <div class="img__box__top">
+                  <p class="img__box__text">Web Service</p>
+                </div>
+                <div class="img__box__bottom"></div>
+              </div>
+              <p class="contents__works__name">BtoBサービス（企業向けファイル共有サービス）</p>
+              <p class="contents__works__info">Coding（Vue.js）</p>
+            </div>
+            <div class="contents__works__item">
+              <!-- TODO: image作成 -->
+              <div class="contents__works__img_dummy">
+                <div class="img__box__top">
+                  <p class="img__box__text">Web Service</p>
+                </div>
+                <div class="img__box__bottom"></div>
+              </div>
+              <p class="contents__works__name">BtoB向けサービスのWebアプリ開発、LP作成</p>
+              <p class="contents__works__info">Coding（Vue.js / TypeScript / Node.js）</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skill -->
+      <section class="contents__skill section" id="skill">
+        <div class="section__inner">
+          <h2 class="section__title">SKILL</h2>
+          <div class="section__body">
+            <!-- FrontEnd -->
+            <div class="contents__skill__list">
+              <h4 class="contents__skill__list__title">FrontEnd</h4>
+              <div class="contents__skill__list__item">
+                <p class="contents__skill__list__img">
+                  <img src="img/icon/html.png" alt="">
+                </p>
+                <div class="contents__skill__list__body">
+                  <h3 class="contents__skill__list__name">HTML5/CSS3</h3>
+                  <p class="contents__skill__list__text">3年</p>
+                </div>
+              </div>
+              <div class="contents__skill__list__item">
+                <p class="contents__skill__list__img">
+                  <img src="img/icon/java_script.png" alt="">
+                </p>
+                <div class="contents__skill__list__body">
+                  <h3 class="contents__skill__list__name">JavaScript</h3>
+                  <p class="contents__skill__list__text">3年</p>
+                </div>
+              </div>
+              <div class="contents__skill__list__item">
+                <p class="contents__skill__list__img">
+                  <img src="img/icon/type_script.png" alt="">
+                </p>
+                <div class="contents__skill__list__body">
+                  <h3 class="contents__skill__list__name">TypeScript</h3>
+                  <p class="contents__skill__list__text">
+                    1年
+                  </p>
+                </div>
+              </div>
+              <div class="contents__skill__list__item">
+                <p class="contents__skill__list__img">
+                  <img src="img/icon/vuejs.png" alt="">
+                </p>
+                <div class="contents__skill__list__body">
+                  <h3 class="contents__skill__list__name">Vue.js</h3>
+                  <p class="contents__skill__list__text">
+                    2年
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- BackEnd -->
+            <div class="contents__skill__list">
+              <h4 class="contents__skill__list__title">BackEnd</h4>
+              <div class="contents__skill__list__item">
+                <p class="contents__skill__list__img">
+                  <img src="img/icon/mysql.png" alt="">
+                </p>
+                <div class="contents__skill__list__body">
+                  <h3 class="contents__skill__list__name">MySQL</h3>
+                  <p class="contents__skill__list__text">2年</p>
+                </div>
+              </div>
+              <div class="contents__skill__list__item">
+                <p class="contents__skill__list__img">
+                  <img src="img/icon/oracle.png" alt="">
+                </p>
+                <div class="contents__skill__list__body">
+                  <h3 class="contents__skill__list__name">Oracle</h3>
+                  <p class="contents__skill__list__text">3ヶ月</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- DevOps -->
+            <div class="contents__skill__list">
+              <h4 class="contents__skill__list__title">DevOps</h4>
+              <div class="contents__skill__list__item">
+                <p class="contents__skill__list__img">
+                  <img src="img/icon/git.png" alt="">
+                </p>
+                <div class="contents__skill__list__body">
+                  <h3 class="contents__skill__list__name">Git</h3>
+                  <p class="contents__skill__list__text">3年</p>
+                </div>
+              </div>
+              <div class="contents__skill__list__item">
+                <p class="contents__skill__list__img">
+                  <img src="img/icon/nginx.png" alt="">
+                </p>
+                <div class="contents__skill__list__body">
+                  <h3 class="contents__skill__list__name">Nginx</h3>
+                  <p class="contents__skill__list__text">2年</p>
+                </div>
+              </div>
+              <div class="contents__skill__list__item">
+                <p class="contents__skill__list__img">
+                  <img src="img/icon/aws.png" alt="">
+                </p>
+                <div class="contents__skill__list__body">
+                  <h3 class="contents__skill__list__name">AWS</h3>
+                  <p class="contents__skill__list__text">2年</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contents__contact section" id="contact">
+        <div class="section__inner">
+          <h2 class="section__title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせ先は、<br class="sp-only">現在作成中。
+          </p>
+          <div class="contact-list">
+            <a class="contact-item" href="https://www.instagram.com/__ayakari/" target="_blank" rel="noopener">Instagram</a>
+            <a class="contact-item" href="https://ayakari-sweets.com/" target="_blank" rel="noopener">Blog（かめ更新）</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;Yadokari</div>
+    </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
